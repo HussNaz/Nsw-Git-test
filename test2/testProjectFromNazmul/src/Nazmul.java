@@ -15,5 +15,6 @@ public class Nazmul {
         System.out.println("Enter your age");
         int age = sc.nextInt();
         System.out.println("You are " + age + " years old");
+        sc.close();
     }
 }
